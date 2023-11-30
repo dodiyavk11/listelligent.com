@@ -5,10 +5,10 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
+import { Link } from 'react-router-dom';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import { BsGeoAltFill } from "react-icons/bs";
-import Image from 'react-bootstrap/Image';
 import { HiOfficeBuilding } from "react-icons/hi";
 import { MdContactless } from "react-icons/md";
 import { FaHandHoldingDollar } from "react-icons/fa6";
@@ -19,7 +19,7 @@ const Home = () => {
             <div className='first-section'>
                 <Container>
                     <Row className='mt-3 first-inner-section'>
-                        <Col className='first-left-col'>
+                        <Col lg={6} className='first-left-col'>
                             <h4>Sell Your Home for 1% Connect With Agents in Your Zip Code</h4>
                             <h5>Enter your address to match with a local professional</h5>
                             <div className='zip-search-input'>
@@ -35,21 +35,21 @@ const Home = () => {
                             </div>
                             <p>No Obligation-No Spam-Fast-Simple</p>
                         </Col>
-                        <Col><img className='rounded' src='https://www.lt6p.com/re/img/buysell/buyers_moving_family_new.jpg' alt='Image'></img></Col>
+                        <Col lg={6}><img className='rounded' src='https://www.lt6p.com/re/img/buysell/buyers_moving_family_new.jpg' alt='Image'></img></Col>
                     </Row>
 
                     <Row className='second-inner-section'>
-                        <Col className='agent-col'>
+                        <Col lg={4} className='agent-col'>
                             <HiOfficeBuilding />
                             <h5>Find Local Agents</h5>
                             <p>Insert your address to connect with top agents that list for 1%</p>
                         </Col>
-                        <Col>
+                        <Col lg={4}>
                             <MdContactless />
                             <h5>Connect</h5>
                             <p>Review agent profile and schedule an interview</p>
                         </Col>
-                        <Col>
+                        <Col lg={4}>
                             <FaHandHoldingDollar />
                             <h5>Save Thousands of Dollars!</h5>
                             <p>Work with your agent to get your home sold!</p>
@@ -61,7 +61,7 @@ const Home = () => {
             <div className='second-section'>
                 <Container>
                     <Row>
-                        <Col>
+                        <Col lg={12}>
                             <h1>How much can I save by using a Listelligent pro?</h1>
                             <h1 className='mt-4'>Sales Price</h1>
 
@@ -100,12 +100,12 @@ const Home = () => {
             <div className='third-section'>
                 <Container>
                     <Row>
-                        <Col className='third-sec-heading'>
+                        <Col lg={12} className='third-sec-heading'>
                             <h1>Why work with Listelligent?</h1>
                         </Col>
                     </Row>
                     <Row className='third-sec-content'>
-                        <Col>
+                        <Col lg={6}>
                             <h3>Hassle Free Search</h3>
                             <p>Insert your address and connect with a pro right away! No long questionnaires, spam calls, junk emails or any other nonsense.</p>
                             <h3>Easy Interviews</h3>
@@ -113,8 +113,100 @@ const Home = () => {
                             <h3>Save Thousands of Dollars</h3>
                             <p>Listelligent connects you with top agents that will list your home for 1% netting you more money.</p>
                         </Col>
-                        <Col>
+                        <Col lg={6}>
                             <img className='rounded' src='https://www.lt6p.com/re/img/buysell/sellers_smiling_couple_new.jpg'></img>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
+
+            <div className='fourth-section'>
+                <Container>
+                    <Row className='align-items-center'>
+                        <Col lg={5} className='fourth-sec-heading'>
+                            <h2>Connect With Local Agents</h2>
+                        </Col>
+                        <Col xs={2}></Col>
+                        <Col lg={5}>
+                            <Form className='search-form'>
+                                <Form.Control size="lg" type="text" placeholder="Search" />
+                                <Button variant="warning">Search</Button>{' '}
+                            </Form>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <div className='search-result'>
+                            <h1>Agent Search</h1>
+                        </div>
+                        <Col lg={3} className='agents-list'>
+                            <ul>
+                                <li>Alabama</li>
+                                <li>Alaska</li>
+                                <li>Arizona</li>
+                                <li>Arkansas</li>
+                                <li>California</li>
+                                <li>Colorado</li>
+                                <li>Connecticut</li>
+                                <li>Delaware</li>
+                                <li>District Of Columbia</li>
+                                <li>Florida</li>
+                                <li>Georgia</li>
+                                <li>Hawaii</li>
+                                <li>Idaho</li>
+                            </ul>
+                        </Col>
+                        <Col lg={3} className='agents-list'>
+                            <ul>
+                                <li>Alabama</li>
+                                <li>Alaska</li>
+                                <li>Arizona</li>
+                                <li>Arkansas</li>
+                                <li>California</li>
+                                <li>Colorado</li>
+                                <li>Connecticut</li>
+                                <li>Delaware</li>
+                                <li>District Of Columbia</li>
+                                <li>Florida</li>
+                                <li>Georgia</li>
+                                <li>Hawaii</li>
+                                <li>Idaho</li>
+                            </ul>
+                        </Col>
+                        <Col lg={3} className='agents-list'>
+                            <ul>
+                                <li>Alabama</li>
+                                <li>Alaska</li>
+                                <li>Arizona</li>
+                                <li>Arkansas</li>
+                                <li>California</li>
+                                <li>Colorado</li>
+                                <li>Connecticut</li>
+                                <li>Delaware</li>
+                                <li>District Of Columbia</li>
+                                <li>Florida</li>
+                                <li>Georgia</li>
+                                <li>Hawaii</li>
+                                <li>Idaho</li>
+                            </ul>
+                        </Col>
+                        <Col lg={3} className='agents-list'>
+                            <ul>
+                                <li>
+                                    <Link to={"/singlepost"}>Rhode Island</Link>
+                                </li>
+                                <li>Alaska</li>
+                                <li>Arizona</li>
+                                <li>Arkansas</li>
+                                <li>California</li>
+                                <li>Colorado</li>
+                                <li>Connecticut</li>
+                                <li>Delaware</li>
+                                <li>District Of Columbia</li>
+                                <li>Florida</li>
+                                <li>Georgia</li>
+                                <li>Hawaii</li>
+                                <li>Idaho</li>
+                            </ul>
                         </Col>
                     </Row>
                 </Container>

@@ -1,0 +1,120 @@
+/* Header CSS */
+.singlepost-navbar-Container {
+    background: linear-gradient(122.3deg,#4b86db .89%, #4b86db 100%);
+    padding: 0px 0px 75px 0px;
+}
+.singlepost-navbar{
+    box-shadow: 0px 0px;
+}
+.singlepost-nav-logo{
+    font-size: 25px;
+    font-weight: 800;
+    color: #fff;
+}
+.singlepost-nav-logo:hover{
+    color: #fff;
+}
+.breadcrumb ul{
+    padding: 0px;
+    display: inline-flex;
+    position: relative;
+}
+.breadcrumb ul li a{
+    color: #fff !important;
+    text-decoration: none;
+    font-weight: 500;
+}
+.breadcrumb ul li{
+    color: #fff !important;
+    text-decoration: none;
+    list-style: none;
+    padding: 0px 0px 0px 0px;
+}
+.breadcrumb ul li svg{
+    margin: 0px 10px;
+}
+.header-heading h2{
+    color: #fff;
+    font-weight: 800;
+    font-size: 40px;
+    text-align: center;
+}
+.header-search {
+    display: flex;
+    position: relative;
+}
+.header-search input{
+    padding: 12px;
+    border-radius: 50px;
+}
+.header-search button {
+    border-radius: 50px;
+    width: 200px;
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    height: 52px;
+    background: linear-gradient(180deg,#f57f17 0,#f27e17 100%);
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-search button:hover{
+    color: #fff;
+    background: linear-gradient(180deg,rgb(250, 148, 59) 0,rgb(250, 148, 59) 100%);
+}
+.header-search button svg{
+    width: 25px;
+    height: 25px;
+}
+/* Header CSS End */
+
+
+.singlepost-second-section {
+    background-color: #f7faff;
+    padding: 45px 0px 25px 0px;
+}
+.singlepost-second-section h1 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    color: #3f4650;
+    opacity: .87;
+}
+
+
+.singlepost-third-section{
+    background-color: #f7faff;
+    padding: 80px 0px 0px 0px;
+}
+.agent-heading h2{
+    font-size: 25px;
+    color: #4b5c75;
+    font-weight: 800;
+    opacity: .87;
+}
+.agent-table {
+    margin: 40px 0px 0px 0px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px 20px;
+    box-shadow: 0px 0px 8px 2px rgb(219 219 219);
+}
+.agent-table img{
+    width: 100%;
+}
+.agent-table-content h4 {
+    color: #3f4650;
+    font-size: 22px;
+    font-weight: 700;
+    opacity: .87;
+}
+.agent-table-content p {
+    color: #4b5c75;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: .87;
+}
