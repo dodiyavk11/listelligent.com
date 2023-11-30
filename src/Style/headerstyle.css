@@ -1,0 +1,13 @@
+.navbar {
+    box-shadow: 0px 0px 8px 3px rgb(199 199 199);
+    padding: 20px 0px;
+}
+.nav-logo{
+    font-size: 25px;
+    font-weight: 600;
+}
+.nav-links a {
+    color: #000;
+    text-decoration: none;
+    padding: 0px 20px;
+}

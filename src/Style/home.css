@@ -1,0 +1,223 @@
+.first-left-col h4 {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    color: #3f4650;
+}
+.first-left-col h5 {
+    text-align: center;
+    font-size: 20px;
+    margin: 20px 0px 0px 0px;
+    color: #3f4650;
+    opacity: .87;
+}
+.zip-code-btn {
+    color: #a5a5a5;
+    background: none;
+    border: 1px solid #d9d9d9;
+}
+.zip-code-btn:hover{
+    background: none;
+    color: #a5a5a5;
+    border: 1px solid #d9d9d9;
+}
+.find-btn{
+    background: cornflowerblue;
+    border: 1px solid cornflowerblue;
+}
+.zip-search-input {
+    display: flex;
+    justify-content: center;
+}
+.zip-search-input-content{
+    width: 70%;
+    box-shadow: 0px 0px 8px 1px rgb(199 199 199);
+    border-radius: 8px;
+}
+.zip-search-input-content input{
+    padding: 10px;
+}
+.first-left-col p {
+    text-align: center;
+    font-size: 16px;
+    margin: 15px 0px 0px 0px;
+    color: #3f4650;
+    opacity: .87;
+    font-weight: 500;
+}
+.first-section img{
+    width: 80%;
+}
+.first-inner-section{
+    display: flex;
+    align-items: center;
+}
+.first-inner-section :nth-child(2){
+    display: flex;
+    justify-content: end;
+}
+
+.second-inner-section{
+    margin: 80px 0px 0px 0px;
+    text-align: center;
+}
+.second-inner-section svg {
+    width: 60px;
+    height: 60px;
+    color: cornflowerblue;
+}
+.second-inner-section h5 {
+    font-size: 22px;
+    font-weight: 800;
+    color: #3f4650;
+    opacity: 1;
+}
+.second-inner-section p{
+    font-size: 21px;
+    color: #3f4650;
+    opacity: .87;
+}
+
+
+.second-section {
+    background-color: #f7faff;
+    margin: 80px 0px 0px 0px;
+    padding: 45px 0px 25px 0px;
+}
+.second-section h1 {
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    color: #3f4650;
+    opacity: .87;
+}
+.rang-label label{
+    font-weight: 800;
+    color: #3f4650;
+    opacity: .87;
+}
+
+.calculation-colunms{
+    margin-top: 100px;
+}
+.calculator-stat-listelligent {
+    background-color: #fff;
+    border: 2px solid rgba(56,137,235,.16);
+    padding: 65px 0px;
+    text-align: center;
+    border-radius: 15px 0px 0px 15px;
+    position: relative;
+}
+.calculator-stat-listelligent p {
+    font-weight: 700;
+    color: #3f4650;
+    font-size: 15px;
+    margin: 0px 0px 4px 0px;
+}
+.calculator-stat-listelligent h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin: 16px 0px 0px 0px;
+    color: #3f4650;
+}
+.calculator-stat-listelligent h3::after {
+    content: "VS.";
+    position: absolute;
+    border-radius: 100px;
+    bottom: calc(50% - 25px);
+    right: -21px;
+    z-index: 1;
+    background: #e1ecfd;
+    width: 39px;
+    height: 39px;
+    font-size: 15px;
+    line-height: 39px;
+    font-weight: 600;
+}
+
+.calculator-stat-others {
+    background-color: #fff;
+    padding: 65px 0px;
+    text-align: center;
+    border-top: 2px solid rgba(56,137,235,.16);
+    border-bottom: 2px solid rgba(56,137,235,.16);
+    position: relative;
+}
+.calculator-stat-others p{
+    font-weight: 700;
+    color: #3f4650;
+    font-size: 15px;
+    margin: 0px 0px 4px 0px;
+}
+.calculator-stat-others h3{
+    font-size: 32px;
+    font-weight: 700;
+    margin: 16px 0px 0px 0px;
+    color: #697586;;
+}
+/* .calculator-stat-others::before {
+    right: -42px;
+    border-color: transparent transparent transparent rgba(56,137,235,.16);
+} */
+.calculator-stat-others h3::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 115px 0px 119px 40px;
+    border-color: transparent transparent transparent #fff;
+    position: absolute;
+    top: 0;
+    right: -40px;
+}
+
+.calculator-stat-saving{
+    border-top: 2px solid rgba(56,137,235,.16);
+    border-right: 2px solid rgba(56,137,235,.16);
+    border-bottom: 2px solid rgba(56,137,235,.16);
+    padding: 65px 0px;
+    text-align: center;
+    border-radius: 0px 15px 15px 0px;
+}
+.calculator-stat-saving p{
+    font-weight: 700;
+    color: #3f4650;
+    font-size: 15px;
+    margin: 0px 0px 4px 0px;
+}
+.calculator-stat-saving h3{
+    font-size: 32px;
+    font-weight: 700;
+    margin: 16px 0px 0px 0px;
+    color: #3f4650;
+}
+
+
+.third-section{
+    margin: 80px 0px 200px 0px;
+}
+.third-sec-heading h1 {
+    font-size: 35px;
+    font-weight: 800;
+    opacity: .87;
+    text-align: center;
+    color: #3f4650;
+}
+.third-sec-content{
+    margin: 50px 0px 0px 0px;
+    align-items: center;
+}
+.third-sec-content h3 {
+    font-weight: 700;
+    color: #4b5c75;
+    font-size: 25px;
+}
+.third-sec-content p {
+    font-weight: 400;
+    color: #4b5c75;
+    font-size: 18px;
+}
+.third-sec-content > :nth-child(2){
+    display: flex;
+    justify-content: end;
+}
