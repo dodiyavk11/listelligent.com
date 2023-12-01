@@ -13,6 +13,7 @@ const Header = () => {
                 <Nav className="me-auto nav-links">
                     <Link to={'/'}>Home</Link>
                     <Link to={'/contact'}>Contact</Link>
+                    <Link to={'/howitwork'}>How Its Work</Link>
                 </Nav>
             </Container>
         </Navbar>

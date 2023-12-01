@@ -1,13 +1,17 @@
 .navbar {
-    box-shadow: 0px 0px 8px 3px rgb(199 199 199);
+    background: linear-gradient(122.3deg,#4b86db .89%, #4b86db 100%);
     padding: 20px 0px;
 }
 .nav-logo{
     font-size: 25px;
     font-weight: 600;
+    color: #fff;
+}
+.nav-logo:hover{
+    color: #fff;
 }
 .nav-links a {
-    color: #000;
+    color: #fff;
     text-decoration: none;
     padding: 0px 20px;
 }

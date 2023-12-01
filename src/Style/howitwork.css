@@ -1,0 +1,78 @@
+.hiw-first-section {
+    background: linear-gradient(122.3deg,#4b86db .89%, #4b86db 100%);
+    padding: 40px 0px;
+}
+.hiw-first-section h3 {
+    color: #fff;
+    font-size: 44px;
+    font-weight: 800;
+}
+.hiw-first-section p {
+    color: #fff;
+    font-size: 20px;
+    opacity: .87;
+    margin: 15px 0px;
+}
+.video-popup-container{
+    display: flex;
+    justify-content: end;
+}
+.video-popup{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+.video-popup img{
+    width: 85%;
+    border-radius: 10px;
+}
+.video-popup button {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: 105px;
+    right: 225px;
+    color: #4a95f2;
+    border-radius: 50px;
+    background: #fff;
+}
+.video-popup svg {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    color: #4a95f2;
+    border-radius: 50px;
+    background: #fff;
+}
+
+
+.hiw-second-section{
+    background-color: #f7faff;
+    padding: 80px 0px 50px 0px;
+}
+.hiw-second-section h3 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #3f4650;
+    opacity: .87;
+    font-family: Montserrat;
+}
+
+
+.hiw-third-section{
+    background-color: #f7faff;
+    padding: 40px 0px;
+}
+.hiw-third-section-heading {
+    background-color: #4b86db;
+    padding: 10px 0px;
+}
+.hiw-third-section-heading h1 {
+    text-align: center;
+    color: #f7faff;
+    font-size: 40px;
+    font-weight: 700;
+}
