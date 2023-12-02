@@ -6,6 +6,8 @@ import Contact from "./Pages/Contact";
 import Nopage from "./Pages/Nopage";
 import Singlepost from "./Pages/Singlepost";
 import Howitwork from "./Pages/Howitwork";
+import Agentslist from "./Pages/Agentslist";
+import Agentprofile from "./Pages/Agentprofile";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
           <Route path="contact" element={<Contact />} />
           <Route path="singlepost" element={<Singlepost />} />
           <Route path="howitwork" element={<Howitwork />} />
+          <Route path="agentslist" element={<Agentslist />} />
+          <Route path="agentprofile" element={<Agentprofile />} />
           <Route path="*" element={<Nopage />} />
         </Routes>
       </BrowserRouter>

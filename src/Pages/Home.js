@@ -130,7 +130,7 @@ const Home = () => {
                         <Col lg={5}>
                             <Form className='search-form'>
                                 <Form.Control size="lg" type="text" placeholder="Search" />
-                                <Button variant="warning">Search</Button>{' '}
+                                <Link to={"/agentslist"}>Search</Link>
                             </Form>
                         </Col>
                     </Row>

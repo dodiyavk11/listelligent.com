@@ -1,0 +1,123 @@
+.form-container{
+    background-color: #f7faff;
+}
+.form {
+    background: #fff;
+    padding: 20px 30px 60px 30px;
+    margin: 70px 0px;
+    border-radius: 10px;
+}
+.form h3 {
+    color: #3f4650;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    opacity: .87;
+}
+.form input {
+    /* margin: 40px 0px; */
+    font-weight: 500;
+    opacity: .87;
+    font-size: 18px;
+    padding: 14px;
+}
+.form button {
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    background-color: #f57f17;
+    font-family: Montserrat;
+}
+.form button:hover{
+    background: linear-gradient(0deg, rgba(235, 87, 87, 0.32), rgba(235, 87, 87, 0.32)),#f57f17;
+    color: #fff;
+}
+.or {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -19px;
+    z-index: 1;
+    position: relative;
+}
+.or span {
+    background-color: #f7faff;
+    padding: 15px 16px;
+    border-radius: 40px;
+    color: #3f4650;
+    font-weight: 600;
+    opacity: .87;
+    border: 1px solid #c4d3eb;
+}
+
+
+.steper-container{
+    background-color: #f7faff;
+    padding: 0px 0px 50px 0px;
+}
+.steper-content h3 {
+    text-align: center;
+    color: #3f4650;
+    font-weight: 700;
+    font-size: 32px;
+    opacity: .87;
+}
+.steper-content .sterper{
+    padding: 40px 18px;
+}
+
+.agents-container{
+    background-color: #f7faff;
+    padding: 40px 0px;
+}
+.agents-container h3 {
+    font-size: 30px;
+    color: #3f4650;
+    font-weight: 700;
+    opacity: .87;
+}
+.agent-profile {
+    border: 2px solid #c2c7cd;
+    border-radius: 10px;
+    margin: 30px 0px;
+}
+.agent-img {
+    border-right: 2px solid #c2c7cd;
+}
+.agent-img img {
+    width: 100%;
+    border-radius: 7px 0px 0px 7px;
+}
+.agent-profile h4 {
+    color: #3f4650;
+    margin: 0px;
+    font-size: 28px;
+    font-weight: 700;
+    opacity: .87;
+}
+.agent-profile p {
+    color: #3f4650;
+    font-size: 18px;
+    margin: 8px 0px;
+}
+.agent-profile span {
+    font-weight: 700;
+    color: #3f4650;
+    margin: 0px 10px 0px 0px;
+}
+.agent-profile a {
+    padding: 12px 30px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    background: linear-gradient(122.3deg,#4b86db .89%, #4b86db 100%);
+    font-family: Montserrat;
+    text-decoration: none;
+}
+.agent-profile a:hover{
+    background: linear-gradient(122.3deg,#3770c0 .89%, #3770c0 100%);
+}

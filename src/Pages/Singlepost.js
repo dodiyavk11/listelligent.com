@@ -3,7 +3,6 @@ import '../Style/singlepost.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Navbar from 'react-bootstrap/Navbar';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import { HiOutlineArrowSmRight } from "react-icons/hi";
@@ -13,6 +12,7 @@ import { HiOfficeBuilding } from "react-icons/hi";
 import { MdContactless } from "react-icons/md";
 import { FaHandHoldingDollar } from "react-icons/fa6";
 import Layout from '../components/Layouts/Layout';
+import { Link } from 'react-router-dom';
 
 const Singlepost = () => {
     return (
@@ -43,7 +43,7 @@ const Singlepost = () => {
                         <Col lg={6}>
                             <Form className='header-search'>
                                 <Form.Control size="lg" type="text" placeholder="Search" />
-                                <Button variant="warning">GET STARTED<HiOutlineArrowSmRight /></Button>{' '}
+                                <Link to={"/agentslist"}>GET STARTED<HiOutlineArrowSmRight /></Link>
                             </Form>
                         </Col>
                         <Col lg={3}></Col>
@@ -258,7 +258,7 @@ const Singlepost = () => {
                         <Col md={12} className='d-flex justify-content-center'>
                             <Form className='singlepost-footer-search'>
                                 <Form.Control size="lg" type="text" placeholder="Search" />
-                                <Button variant="warning">GET STARTED<HiOutlineArrowSmRight /></Button>{' '}
+                                <Link to={"/agentslist"}>GET STARTED<HiOutlineArrowSmRight /></Link>
                             </Form>
                         </Col>
                         <Col md={12}>

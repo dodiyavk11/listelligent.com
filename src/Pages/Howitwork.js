@@ -17,6 +17,7 @@ import Button from '@mui/material/Button';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
 import Accordion from 'react-bootstrap/Accordion';
+import { Link } from 'react-router-dom';
 
 const steps = [
     {
@@ -60,7 +61,7 @@ const Howitwork = () => {
                             <p>Save time, energy and money by working with local experts that will list your home for 1%</p>
                             <Form className='header-search'>
                                 <Form.Control size="lg" type="text" placeholder="Search" />
-                                <Button variant="warning">GET STARTED<HiOutlineArrowSmRight /></Button>{' '}
+                                <Link to={"/agentslist"}>GET STARTED<HiOutlineArrowSmRight /></Link>
                             </Form>
                         </Col>
                         <Col md={6} className='video-popup-container'>
@@ -129,7 +130,7 @@ const Howitwork = () => {
                         <Col md={12} className='hiw-third-section-heading'>
                             <h1>Frequently Asked Questions</h1>
                         </Col>
-                        <Col md={12} className='mt-5'>
+                        <Col md={12} className='mt-5 p-0'>
                             <Accordion defaultActiveKey="0" flush>
                                 <Accordion.Item eventKey="0">
                                     <Accordion.Header>What is Listelligent?</Accordion.Header>

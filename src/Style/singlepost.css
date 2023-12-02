@@ -47,7 +47,7 @@
     padding: 12px;
     border-radius: 50px;
 }
-.header-search button {
+.header-search a {
     border-radius: 50px;
     width: 200px;
     position: absolute;
@@ -61,12 +61,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
-.header-search button:hover{
+.header-search a:hover{
     color: #fff;
     background: linear-gradient(180deg,rgb(250, 148, 59) 0,rgb(250, 148, 59) 100%);
 }
-.header-search button svg{
+.header-search a svg{
     width: 25px;
     height: 25px;
 }
@@ -229,7 +230,7 @@
     padding: 12px;
     border-radius: 50px;
 }
-.singlepost-footer-search button {
+.singlepost-footer-search a {
     border-radius: 50px;
     width: 200px;
     position: absolute;
@@ -243,12 +244,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
 }
-.singlepost-footer-search button:hover{
+.singlepost-footer-search a:hover{
     color: #fff;
     background: linear-gradient(180deg,rgb(250, 148, 59) 0,rgb(250, 148, 59) 100%);
 }
-.singlepost-footer-search button svg{
+.singlepost-footer-search a svg{
     width: 25px;
     height: 25px;
 }

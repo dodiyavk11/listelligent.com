@@ -22,8 +22,8 @@ const Footer = () => {
               <li>Privacy Policy</li>
             </ul>
           </Col>
-          <Col>3</Col>
-          <Col>4</Col>
+          <Col></Col>
+          <Col></Col>
         </Row>
       </Container>
     </div>
