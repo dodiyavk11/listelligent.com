@@ -1,10 +1,11 @@
-.form-container{
+.form-container {
     background-color: #f7faff;
+    padding: 70px 0px;
 }
 .form {
     background: #fff;
     padding: 20px 30px 60px 30px;
-    margin: 70px 0px;
+    /* margin: 70px 0px; */
     border-radius: 10px;
 }
 .form h3 {
@@ -56,7 +57,7 @@
 
 .steper-container{
     background-color: #f7faff;
-    padding: 0px 0px 50px 0px;
+    padding: 70px 0px;
 }
 .steper-content h3 {
     text-align: center;
@@ -68,10 +69,26 @@
 .steper-content .sterper{
     padding: 40px 18px;
 }
+.agentlist-steper-btn{
+    background-color: #FF6C2C !important;
+}
+.agentlist-step-label > span > span > svg{
+    color: #ffab86;
+}
+.agentlist-step-label > span > .Mui-active svg{
+    color: #FF6C2C;
+}
+.agentlist-step-label > span > .Mui-completed svg{
+    color: #FF6C2C;
+}
+.progress-bar{
+    background-color: #FF6C2C !important;
+}
+
 
 .agents-container{
     background-color: #f7faff;
-    padding: 40px 0px;
+    padding: 70px 0px;
 }
 .agents-container h3 {
     font-size: 30px;
@@ -114,10 +131,10 @@
     color: #fff;
     font-weight: 700;
     font-size: 16px;
-    background: linear-gradient(122.3deg,#4b86db .89%, #4b86db 100%);
+    background: #FF6C2C;
     font-family: Montserrat;
     text-decoration: none;
 }
 .agent-profile a:hover{
-    background: linear-gradient(122.3deg,#3770c0 .89%, #3770c0 100%);
+    background: #f7601f;
 }

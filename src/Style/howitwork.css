@@ -1,5 +1,5 @@
 .hiw-first-section {
-    background: linear-gradient(122.3deg,#4b86db .89%, #4b86db 100%);
+    background: #FF6C2C;
     padding: 40px 0px;
 }
 .hiw-first-section h3 {
@@ -27,25 +27,16 @@
     width: 85%;
     border-radius: 10px;
 }
-.video-popup button {
-    width: 80px;
-    height: 80px;
+.video-popup a {
     position: absolute;
-    top: 105px;
-    right: 225px;
-    color: #4a95f2;
-    border-radius: 50px;
-    background: #fff;
+    top: 35%;
+    left: 52%;
+    color: #FF6C2C;
 }
-.video-popup svg {
-    width: 80px;
-    height: 80px;
-    position: absolute;
-    top: -1px;
-    right: -1px;
-    color: #4a95f2;
+.video-popup a svg{
+    font-size: 75px;
+    background: white;
     border-radius: 50px;
-    background: #fff;
 }
 
 
@@ -60,14 +51,25 @@
     opacity: .87;
     font-family: Montserrat;
 }
-
+.hiw-next-btn{
+    background-color: #FF6C2C !important;
+}
+.hiw-step-label > span > span > svg{
+    color: #ffab86;
+}
+.hiw-step-label > span > .Mui-active svg{
+    color: #FF6C2C;
+}
+.hiw-step-label > span > .Mui-completed svg{
+    color: #FF6C2C;
+}
 
 .hiw-third-section{
     background-color: #f7faff;
     padding: 40px 0px;
 }
 .hiw-third-section-heading {
-    background-color: #4b86db;
+    background-color: #FF6C2C;
     padding: 10px 0px;
 }
 .hiw-third-section-heading h1 {
@@ -75,4 +77,15 @@
     color: #f7faff;
     font-size: 40px;
     font-weight: 700;
+}
+.acordian-btn button:not(.collapsed) {
+    background-color: #FF6C2C !important;
+    box-shadow: none !important;
+    color: #fff;
+}
+.acordian-btn button::after{
+    color: #fff !important;
+}
+.acordian-btn button:focus{
+    box-shadow: none !important;
 }

@@ -1,6 +1,6 @@
 import React from 'react';
-import Layout from '../components/Layouts/Layout';
-import '../Style/agentprofile.css';
+import Layout from '../../components/Layouts/Layout';
+import '../../Style/Agents/myprofile.css';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -29,13 +29,13 @@ function MyVerticallyCenteredModal(props) {
     );
 }
 
-const Agentprofile = () => {
 
+const Myprofile = () => {
     const [modalShow, setModalShow] = React.useState(false);
 
     return (
         <Layout>
-            <div className='profile-conteiner'>
+            <div className='myprofile-conteiner'>
                 <Container>
                     <Row>
                         <Col md={8}>
@@ -43,7 +43,7 @@ const Agentprofile = () => {
                                 <Col md={3}>
                                     <div>
                                         <img src='https://storage.googleapis.com/upnest1/upload/realtor/1505730803_2621ec1e-d519-49f6-84bc-7197ada234d7.jpeg'></img>
-                                        <div className='d-flex justify-content-center mt-3 social-icons'>
+                                        <div className='d-flex justify-content-center mt-3 myprofile-social-icons'>
                                             <FaFacebook className='facebook' />
                                             <FaLinkedin className='linkedin' />
                                             <FaTwitter className='twitter' />
@@ -51,7 +51,7 @@ const Agentprofile = () => {
                                         </div>
                                     </div>
                                 </Col>
-                                <Col md={9} className='profile-content'>
+                                <Col md={9} className='myprofile-content'>
                                     <h2>Roger Browning</h2>
                                     <p>Four Season Reality</p>
                                     <p><span>Agent License #</span>208594</p>
@@ -63,7 +63,7 @@ const Agentprofile = () => {
                             </Row>
                         </Col>
                         <Col md={4}>
-                            <div className='video-content'>
+                            <div className='myprofile-video-content'>
                                 <img src='https://video-cdn.ziggeo.com/v1/applications/e0601e02e994ce8d4763a3cff2190b09/videos/691b73e73d4c589acfd1870b1f2afad0/image'></img>
                                 <Link onClick={() => setModalShow(true)}><FaPlayCircle /></Link>
                                 <MyVerticallyCenteredModal show={modalShow} onHide={() => setModalShow(false)} />
@@ -71,10 +71,10 @@ const Agentprofile = () => {
                         </Col>
                     </Row>
 
-                    <Row className='profile-sub-img-content'>
+                    <Row className='myprofile-sub-img-content'>
                         <Col md={12}>
                             <h4>Promotional Materials</h4>
-                            <Row className='profile-sub-img'>
+                            <Row className='myprofile-sub-img'>
                                 <Col md={4}>
                                     <img src='https://storage.googleapis.com/upnest1/upload/realtor/672158992_abd6408e-e3d6-4ce7-a7c4-4cf1df8b0497.jpeg'></img>
                                 </Col>
@@ -90,14 +90,14 @@ const Agentprofile = () => {
                 </Container>
             </div>
 
-            <div className='agent-about-info'>
+            <div className='myprofile-agent-about-info'>
                 <Container>
                     <Row>
                         <Col md={12}>
-                            <div className='agent-about-info-heading'>
+                            <div className='myprofile-agent-about-info-heading'>
                                 <h3>More About Roger Browning</h3>
                                 <p><span>Specialties:</span> Fine/Luxury Homes, Relocation, Waterfront Homes, Farm/Vineyard</p>
-                                <p><span>Certifications & Awards:</span> Broker, Professional Staging Cuunsltant</p>
+                                <p><span>Certifications & Awards:</span> Broker, Professional Smyprofile-taging Cuunsltant</p>
                                 <p><span>Client Endorsements:</span> Exeperienced, Friendly, Good Negotiator, Honest, Knowledgeable, Responsive, Tech Savvy, Well Connected</p>
 
                                 <p>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
@@ -109,82 +109,82 @@ const Agentprofile = () => {
                 </Container>
             </div>
 
-            <div className='slider'>
+            <div className='myprofile-slider'>
                 <Container>
                     <Row>
                         <Col md={12}>
-                            <div class='container-fluid' >
-                            <h1>Featured Transactions</h1>
+                            <div class='container-fluid'>
+                                <h1>Featured Transactions</h1>
                                 <OwlCarousel items={3} className="owl-theme" loop nav margin={8} >
-                                    <div className='carousel-card'>
+                                    <div className='myprofile-carousel-card'>
                                         <img className="img" src={'https://storage.googleapis.com/upnest1/upload/transaction/279583_880486ef-2021-46fb-a595-559c83272bb1.jpg'} />
-                                        <div className='carousel-card-content'>
+                                        <div className='myprofile-carousel-card-content'>
                                             <h4>$1,530,000</h4>
-                                            <div className='sq-icon'><span><LuBedDouble />5 Beds</span><span><LuBath />5 Baths</span><span><IoHomeOutline />4356 Sq. Ft</span></div>
+                                            <div className='mp-sq-icon'><span><LuBedDouble />5 Beds</span><span><LuBath />5 Baths</span><span><IoHomeOutline />4356 Sq. Ft</span></div>
                                             <p>1620 Frazier Ave</p>
                                             <p>Carlsbad, CA 92008</p>
                                         </div>
-                                        <p className='tag'>Sold</p>
+                                        <p className='myprofile-tag'>Sold</p>
                                     </div>
-                                    <div className='carousel-card'>
+                                    <div className='myprofile-carousel-card'>
                                         <img className="img" src={'https://storage.googleapis.com/upnest1/upload/transaction/279588_513b5826-e5a9-4ce1-9fd0-0efca3b158b0.jpg'} />
-                                        <div className='carousel-card-content'>
+                                        <div className='myprofile-carousel-card-content'>
                                             <h4>$1,530,000</h4>
-                                            <div className='sq-icon'><span><LuBedDouble />5 Beds</span><span><LuBath />5 Baths</span><span><IoHomeOutline />4356 Sq. Ft</span></div>
+                                            <div className='mp-sq-icon'><span><LuBedDouble />5 Beds</span><span><LuBath />5 Baths</span><span><IoHomeOutline />4356 Sq. Ft</span></div>
                                             <p>1620 Frazier Ave</p>
                                             <p>Carlsbad, CA 92008</p>
                                         </div>
-                                        <p className='tag'>Sold</p>
+                                        <p className='myprofile-tag'>Sold</p>
                                     </div>
-                                    <div className='carousel-card'>
+                                    <div className='myprofile-carousel-card'>
                                         <img className="img" src={'https://storage.googleapis.com/upnest1/upload/transaction/279585_4cbaa342-8d16-4eee-bfb7-0db320359147.jpg'} />
-                                        <div className='carousel-card-content'>
+                                        <div className='myprofile-carousel-card-content'>
                                             <h4>$1,530,000</h4>
-                                            <div className='sq-icon'><span><LuBedDouble />5 Beds</span><span><LuBath />5 Baths</span><span><IoHomeOutline />4356 Sq. Ft</span></div>
+                                            <div className='mp-sq-icon'><span><LuBedDouble />5 Beds</span><span><LuBath />5 Baths</span><span><IoHomeOutline />4356 Sq. Ft</span></div>
                                             <p>1620 Frazier Ave</p>
                                             <p>Carlsbad, CA 92008</p>
                                         </div>
-                                        <p className='tag'>Bought</p>
+                                        <p className='myprofile-tag'>Bought</p>
                                     </div>
-                                    <div className='carousel-card'>
+                                    <div className='myprofile-carousel-card'>
                                         <img className="img" src={'https://storage.googleapis.com/upnest1/upload/transaction/279581_698da2e1-bfeb-46c2-aac0-f4a099cee868.jpg'} />
-                                        <div className='carousel-card-content'>
+                                        <div className='myprofile-carousel-card-content'>
                                             <h4>$1,530,000</h4>
-                                            <div className='sq-icon'><span><LuBedDouble />5 Beds</span><span><LuBath />5 Baths</span><span><IoHomeOutline />4356 Sq. Ft</span></div>
+                                            <div className='mp-sq-icon'><span><LuBedDouble />5 Beds</span><span><LuBath />5 Baths</span><span><IoHomeOutline />4356 Sq. Ft</span></div>
                                             <p>1620 Frazier Ave</p>
                                             <p>Carlsbad, CA 92008</p>
                                         </div>
-                                        <p className='tag'>Bought</p>
+                                        <p className='myprofile-tag'>Bought</p>
                                     </div>
-                                    <div className='carousel-card'>
+                                    <div className='myprofile-carousel-card'>
                                         <img className="img" src={'https://storage.googleapis.com/upnest1/upload/transaction/279583_880486ef-2021-46fb-a595-559c83272bb1.jpg'} />
-                                        <div className='carousel-card-content'>
+                                        <div className='myprofile-carousel-card-content'>
                                             <h4>$1,530,000</h4>
-                                            <div className='sq-icon'><span><LuBedDouble />5 Beds</span><span><LuBath />5 Baths</span><span><IoHomeOutline />4356 Sq. Ft</span></div>
+                                            <div className='mp-sq-icon'><span><LuBedDouble />5 Beds</span><span><LuBath />5 Baths</span><span><IoHomeOutline />4356 Sq. Ft</span></div>
                                             <p>1620 Frazier Ave</p>
                                             <p>Carlsbad, CA 92008</p>
                                         </div>
-                                        <p className='tag'>Sold</p>
+                                        <p className='myprofile-tag'>Sold</p>
                                     </div>
-                                    <div className='carousel-card'>
+                                    <div className='myprofile-carousel-card'>
                                         <img className="img" src={'https://storage.googleapis.com/upnest1/upload/transaction/279588_513b5826-e5a9-4ce1-9fd0-0efca3b158b0.jpg'} />
-                                        <div className='carousel-card-content'>
+                                        <div className='myprofile-carousel-card-content'>
                                             <h4>$1,530,000</h4>
-                                            <div className='sq-icon'><span><LuBedDouble />5 Beds</span><span><LuBath />5 Baths</span><span><IoHomeOutline />4356 Sq. Ft</span></div>
+                                            <div className='mp-sq-icon'><span><LuBedDouble />5 Beds</span><span><LuBath />5 Baths</span><span><IoHomeOutline />4356 Sq. Ft</span></div>
                                             <p>1620 Frazier Ave</p>
                                             <p>Carlsbad, CA 92008</p>
                                         </div>
-                                        <p className='tag'>Bought</p>
+                                        <p className='myprofile-tag'>Bought</p>
                                     </div>
-                                    <div className='carousel-card'>
+                                    <div className='myprofile-carousel-card'>
                                         <img className="img" src={'https://storage.googleapis.com/upnest1/upload/transaction/279585_4cbaa342-8d16-4eee-bfb7-0db320359147.jpg'} />
-                                        <div className='carousel-card-content'>
+                                        <div className='myprofile-carousel-card-content'>
                                             <h4>$1,530,000</h4>
-                                            <div className='sq-icon'><span><LuBedDouble />5 Beds</span><span><LuBath />5 Baths</span><span><IoHomeOutline />4356 Sq. Ft</span></div>
+                                            <div className='mp-sq-icon'><span><LuBedDouble />5 Beds</span><span><LuBath />5 Baths</span><span><IoHomeOutline />4356 Sq. Ft</span></div>
                                             <p>1620 Frazier Ave</p>
                                             <p>Carlsbad, CA 92008</p>
                                         </div>
-                                        <p className='tag'>Sold</p>
+                                        <p className='myprofile-tag'>Sold</p>
                                     </div>
                                 </OwlCarousel>
                             </div>
@@ -196,4 +196,4 @@ const Agentprofile = () => {
     )
 }
 
-export default Agentprofile;
+export default Myprofile;

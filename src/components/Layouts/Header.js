@@ -12,7 +12,7 @@ const Header = () => {
                 <Navbar.Brand href="/" className='nav-logo'>Listelligent</Navbar.Brand>
                 <Nav className="me-auto nav-links">
                     <Link to={'/'}>Home</Link>
-                    <Link to={'/contact'}>Contact</Link>
+                    <Link to={'/agentsignup'}>Agents SignUp</Link>
                     <Link to={'/howitwork'}>How Its Work</Link>
                 </Nav>
             </Container>
