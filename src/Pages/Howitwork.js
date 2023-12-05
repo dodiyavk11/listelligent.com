@@ -87,7 +87,7 @@ const Howitwork = () => {
             <div className='hiw-second-section'>
                 <Container>
                     <Row>
-                        <Col md={6}>
+                        <Col lg={6}>
                             <h3>How to get started:</h3>
                             <Box sx={{ maxWidth: 600 }}>
                                 <Stepper activeStep={activeStep} orientation="vertical">
@@ -122,7 +122,7 @@ const Howitwork = () => {
                                 </Stepper>
                             </Box>
                         </Col>
-                        <Col md={6}></Col>
+                        <Col lg={6}></Col>
                     </Row>
                 </Container>
             </div>

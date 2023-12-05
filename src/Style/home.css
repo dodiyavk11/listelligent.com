@@ -40,6 +40,10 @@
 }
 .zip-search-input-content input{
     padding: 10px;
+    border: none !important;
+}
+.zip-search-input-content svg{
+    align-self: center;
 }
 .first-left-col p {
     text-align: center;
@@ -168,7 +172,7 @@
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 115px 0px 119px 40px;
+    border-width: 125px 0px 119px 40px;
     border-color: transparent transparent transparent #fff;
     position: absolute;
     top: 0;
@@ -294,4 +298,141 @@
     color: #fff;
     font-size: 16px;
     font-weight: 600;
+}
+
+
+@media(max-width: 1224px){
+    .first-left-col h4 {
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .first-left-col h5 {
+        font-size: 16px;
+        margin: 12px 0px 0px 0px;
+    }
+    .zip-search-input-content {
+        width: 100%;
+    }
+    .first-left-col p {
+        font-size: 14px;
+        margin: 10px 0px 0px 0px;
+    }
+    .second-inner-section svg {
+        width: 40px;
+        height: 40px;
+        color: #FF6C2C;
+    }
+    .second-inner-section h5 {
+        font-size: 15px;
+    }
+    .second-inner-section p {
+        font-size: 15px;
+    }
+    .second-section {
+        margin: 30px 0px 0px 0px;
+        padding: 45px 0px 25px 0px;
+    }
+    .second-section h1 {
+        font-size: 22px;
+    }
+    .calculator-stat-listelligent {
+        padding: 35px 0px;
+    }
+    .calculator-stat-listelligent p {
+        font-size: 16px;
+    }
+    .calculator-stat-listelligent h3 {
+        font-size: 25px;
+    }
+    .calculator-stat-others {
+        padding: 35px 0px;
+    }
+    .calculator-stat-others p {
+        font-size: 16px;
+    }
+    .calculator-stat-others h3 {
+        font-size: 25px;
+    }
+    .calculator-stat-others h3::after {
+        border-width: 83px 0px 85px 40px;
+    }
+    .calculator-stat-saving {
+        padding: 35px 0px;
+    }
+    .calculator-stat-saving p {
+        font-size: 16px;
+    }
+    .calculator-stat-saving h3 {
+        font-size: 25px;
+    }
+    .third-section {
+        margin: 35px 0px 0px 0px;
+    }
+    .third-sec-heading h1 {
+        font-size: 28px;
+    }
+    .third-sec-content {
+        margin: 35px 0px 0px 0px;
+        align-items: normal;
+    }
+    .third-sec-content h3 {
+        font-size: 20px;
+    }
+    .third-sec-content p {
+        font-size: 14px;
+    }
+    .third-sec-content > :nth-child(2) > img {
+        width: 100%;
+    }
+    .fourth-section {
+        margin: 50px 0px 0px 0px;
+        padding: 25px 0px;
+    }
+    .fourth-sec-heading h2 {
+        font-size: 20px;
+    }
+    .search-form input {
+        padding: 10px;
+    }
+    .search-form a {
+        width: 145px;
+        height: 46px;
+    }
+    .search-result h1 {
+        font-size: 22px;
+    }
+    .agents-list ul li {
+        font-size: 14px;
+        padding: 4px 0px;
+    }
+}
+
+@media(max-width:767px){
+    .first-left-col h4 {
+        font-size: 16px;
+        font-weight: 800;
+    }
+    .first-left-col p {
+        margin: 10px 0px 10px 0px;
+    }
+    .home-img {
+        justify-content: center;
+        display: flex;
+    }
+    .second-inner-section {
+        margin: 40px 0px 0px 0px;
+    }
+    .second-section {
+        margin: 25px 0px 0px 0px;
+        padding: 35px 0px 25px 0px;
+    }
+    .second-section h1 {
+        font-size: 18px;
+    }
+    .calculation-colunms {
+        margin-top: 40px;
+    }
+    .third-sec-heading h1 {
+        font-size: 20px;
+    }
 }

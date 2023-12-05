@@ -20,14 +20,14 @@ const Singlepost = () => {
             <div className='singlepost-navbar-Container'>
                 <Container>
                     <Row>
-                        {/* <Col lg={12}>
-                            <Navbar expand="lg" className='singlepost-navbar'>
+                        {/* <Col md={12}>
+                            <Navbar expand="md" className='singlepost-navbar'>
                                 <Container>
                                     <Navbar.Brand href="/" className='singlepost-nav-logo'>Listelligent</Navbar.Brand>
                                 </Container>
                             </Navbar>
                         </Col> */}
-                        <Col lg={12} className='d-flex justify-content-center breadcrumb'>
+                        <Col md={12} className='d-flex justify-content-center breadcrumb'>
                             <ul>
                                 <li><a href='/'>Home</a><HiOutlineChevronRight /></li>
                                 <li>Rhode Island</li>
@@ -55,19 +55,19 @@ const Singlepost = () => {
             <div className='singlepost-second-section'>
                 <Container>
                     <Row>
-                        <Col lg={12}>
+                        <Col md={12}>
                             <h1>How much can I save by using a Listelligent pro?</h1>
                             <h1 className='mt-4'>Sales Price</h1>
                         </Col>
                     </Row>
 
                     <Row>
-                        <Col></Col>
-                        <Col xs={6} className='rang-label'>
+                        <Col md={3}></Col>
+                        <Col md={6} className='rang-label'>
                             <Form.Label>Listing Price</Form.Label>
                             <Form.Range />
                         </Col>
-                        <Col></Col>
+                        <Col md={3}></Col>
                     </Row>
 
                     <Row className='calculation-colunms'>
@@ -93,7 +93,7 @@ const Singlepost = () => {
             <div className='singlepost-third-section'>
                 <Container>
                     <Row>
-                        <Col lg={12} className='agent-heading'>
+                        <Col md={12} className='agent-heading'>
                             <h2>Agents to Select</h2>
                         </Col>
                     </Row>
@@ -109,7 +109,9 @@ const Singlepost = () => {
                                     <Col md={8} className='agent-table-content'>
                                         <h4>Emilio DiSpirito IV</h4>
                                         <p>Owner, Engel & Völkers</p>
-                                        <Button variant="outline-primary">Get Introduced</Button>{' '}
+                                        <div className='agent-table-btn'>
+                                            <Button variant="outline-primary">Get Introduced</Button>{' '}
+                                        </div>
                                     </Col>
                                 </Row>
                             </Col>
@@ -132,7 +134,9 @@ const Singlepost = () => {
                                     <Col md={8} className='agent-table-content'>
                                         <h4>Matthew Patty</h4>
                                         <p>Century 21 Shoreline Properties</p>
-                                        <Button variant="outline-primary">Get Introduced</Button>{' '}
+                                        <div className='agent-table-btn'>
+                                            <Button variant="outline-primary">Get Introduced</Button>{' '}
+                                        </div>
                                     </Col>
                                 </Row>
                             </Col>
@@ -155,7 +159,9 @@ const Singlepost = () => {
                                     <Col md={8} className='agent-table-content'>
                                         <h4>Elise Vetri</h4>
                                         <p>Keller Williams Realty</p>
-                                        <Button variant="outline-primary">Get Introduced</Button>{' '}
+                                        <div className='agent-table-btn'>
+                                            <Button variant="outline-primary">Get Introduced</Button>{' '}
+                                        </div>
                                     </Col>
                                 </Row>
                             </Col>
@@ -179,7 +185,7 @@ const Singlepost = () => {
                             <h3 className='m-0'>Find top real estate agents in Rhode Island</h3>
                         </Col>
                         <Col md={6}>
-                            <Form.Control size="lg" type="text" placeholder="" />
+                            <Form.Control size="md" type="text" placeholder="" />
                         </Col>
                     </Row>
                     <Row className='mt-5'>
@@ -230,17 +236,17 @@ const Singlepost = () => {
             <div className='singlepost-fifth-section'>
                 <Container>
                     <Row>
-                        <Col lg={4} className='agent-col'>
+                        <Col md={4} className='agent-col'>
                             <HiOfficeBuilding />
                             <h5>Find Local Agents</h5>
                             <p>Insert your address to connect with top agents that list for 1%</p>
                         </Col>
-                        <Col lg={4}>
+                        <Col md={4}>
                             <MdContactless />
                             <h5>Connect</h5>
                             <p>Review agent profile and schedule an interview</p>
                         </Col>
-                        <Col lg={4}>
+                        <Col md={4}>
                             <FaHandHoldingDollar />
                             <h5>Save Thousands of Dollars!</h5>
                             <p>Work with your agent to get your home sold!</p>
@@ -257,7 +263,7 @@ const Singlepost = () => {
                         </Col>
                         <Col md={12} className='d-flex justify-content-center'>
                             <Form className='singlepost-footer-search'>
-                                <Form.Control size="lg" type="text" placeholder="Search" />
+                                <Form.Control size="md" type="text" placeholder="Search" />
                                 <Link to={"/agentslist"}>GET STARTED<HiOutlineArrowSmRight /></Link>
                             </Form>
                         </Col>

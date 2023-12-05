@@ -57,8 +57,8 @@ const Agentslist = () => {
             <div className='form-container' style={{ display: isOpen ? 'none' : 'block' }}>
                 <Container>
                     <Row>
-                        <Col md={3}></Col>
-                        <Col md={6}>
+                        <Col lg={3}></Col>
+                        <Col lg={6}>
                             <div className='form'>
                                 <h3>One Step Away From Huge Savings!</h3>
                                 <Form>
@@ -70,7 +70,7 @@ const Agentslist = () => {
                                 </Form>
                             </div>
                         </Col>
-                        <Col md={3}></Col>
+                        <Col lg={3}></Col>
                     </Row>
                 </Container>
             </div>
@@ -79,8 +79,8 @@ const Agentslist = () => {
                 <div className='steper-container' style={{ display: AgentsisOpen ? 'none' : 'block' }}>
                     <Container>
                         <Row>
-                            <Col md={3}></Col>
-                            <Col md={6} className='steper-content'>
+                            <Col lg={3}></Col>
+                            <Col lg={6} className='steper-content'>
                                 <h3>Locating agents based on your zip code</h3>
                                 <Box sx={{ maxWidth: 600 }} className='sterper'>
                                     <Stepper activeStep={activeStep} orientation="vertical">
@@ -121,7 +121,7 @@ const Agentslist = () => {
                                 </Box>
                                 <ProgressBar now={60} />
                             </Col>
-                            <Col md={3}></Col>
+                            <Col lg={3}></Col>
                         </Row>
                     </Container>
                 </div>
@@ -139,7 +139,7 @@ const Agentslist = () => {
 
                     <Container>
                         <Row>
-                            <Col md={9}>
+                            <Col lg={9}>
                                 <div className='agent-profile'>
                                     <Row className='d-flex align-items-center'>
                                         <Col md={3} className='agent-img'>
@@ -150,7 +150,9 @@ const Agentslist = () => {
                                             <p>Market Real Estate</p>
                                             <p>(619) 889-8790</p>
                                             <p><span>278</span>Total Sales</p>
-                                            <Link to={"/agentprofile"}>View Profile</Link>
+                                            <div className='agentlist-btn'>
+                                                <Link to={"/agentprofile"}>View Profile</Link>
+                                            </div>
                                         </Col>
                                     </Row>
                                 </div>
@@ -164,7 +166,9 @@ const Agentslist = () => {
                                             <p>Big Block Realty, Inc.</p>
                                             <p>(619) 871-7219</p>
                                             <p><span>43</span>Total Sales</p>
-                                            <Link to={"/agentprofile"}>View Profile</Link>
+                                            <div className='agentlist-btn'>
+                                                <Link to={"/agentprofile"}>View Profile</Link>
+                                            </div>
                                         </Col>
                                     </Row>
                                 </div><div className='agent-profile'>
@@ -177,12 +181,14 @@ const Agentslist = () => {
                                             <p>Melissa Goldstein Tucci</p>
                                             <p>(619) 787-6852</p>
                                             <p><span>75</span>Total Sales</p>
-                                            <Link to={"/agentprofile"}>View Profile</Link>
+                                            <div className='agentlist-btn'>
+                                                <Link to={"/agentprofile"}>View Profile</Link>
+                                            </div>
                                         </Col>
                                     </Row>
                                 </div>
                             </Col>
-                            <Col md={3}></Col>
+                            <Col lg={3}></Col>
                         </Row>
                     </Container>
                 </div>

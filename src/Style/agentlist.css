@@ -125,7 +125,10 @@
     color: #3f4650;
     margin: 0px 10px 0px 0px;
 }
-.agent-profile a {
+.agentlist-btn {
+    margin: 20px 0px 0px 0px;
+}
+.agentlist-btn a {
     padding: 12px 30px;
     border-radius: 5px;
     color: #fff;
@@ -135,6 +138,82 @@
     font-family: Montserrat;
     text-decoration: none;
 }
-.agent-profile a:hover{
+.agentlist-btn a:hover{
     background: #f7601f;
+}
+
+
+@media(max-width: 1224px){
+    .agents-container {
+        padding: 20px 0px;
+    }
+    .agent-profile h4 {
+        font-size: 20px;
+    }
+    .agent-profile p {
+        font-size: 16px;
+        margin: 2px 0px 0px 0px;
+    }
+    .agentlist-btn {
+        margin: 8px 0px 0px 0px;
+    }
+    .agentlist-btn a {
+        padding: 10px 22px;
+        font-size: 12px;
+    }
+}
+
+@media(max-width: 767px){
+    .form-container {
+        padding: 40px 0px;
+    }
+    .form {
+        padding: 20px 15px 25px 15px;
+    }
+    .form input {
+        margin: 10px 0px !important;
+        font-size: 14px;
+    }
+    .form h3 {
+        font-size: 20px;
+    }
+    .or span {
+        padding: 6px 7px;
+    }
+    .form button {
+        font-size: 16px;
+    }
+
+    .steper-container {
+        padding: 40px 0px;
+    }
+    .steper-content h3 {
+        font-size: 20px;
+    }
+    .steper-content .sterper {
+        padding: 20px 18px;
+    }
+
+    .agent-profile {
+        padding: 0px 0px 20px 0px;
+    }
+    .agents-container h3 {
+        font-size: 20px;
+        text-align: center;
+    }
+    .agent-img img {
+        border-radius: 7px 7px 7px 7px;
+    }
+    .agent-profile h4 {
+        font-size: 22px;
+        text-align: center;
+        margin: 10px 0px;
+    }
+    .agent-profile p {
+        text-align: center;
+    }
+    .agentlist-btn {
+        display: flex;
+        justify-content: center;
+    }
 }

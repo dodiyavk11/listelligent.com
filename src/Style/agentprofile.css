@@ -200,3 +200,35 @@
     font-weight: 700;
     color: #fff;
 }
+
+
+@media(max-width: 1224px){
+    .profile-conteiner {
+        padding: 40px 0px;
+    }
+    .profile-content h2 {
+        font-size: 24px;
+    }
+    .profile-content p {
+        margin: 0px 0px;
+    }
+    .social-icons {
+        margin-top: 8px !important;
+    }
+    .social-icons svg {
+        width: 25px;
+        height: 25px;
+    }
+    .video-content a {
+        position: absolute;
+        top: 35%;
+        left: 40%;
+        color: #FF6C2C !important;
+    }
+    .video-content a svg {
+        font-size: 50px;
+    }
+    .profile-sub-img-content h4 {
+        font-size: 26px;
+    }
+}
