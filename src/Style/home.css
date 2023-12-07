@@ -1,6 +1,6 @@
 .first-left-col h4 {
     text-align: center;
-    font-size: 35px;
+    font-size: 33px;
     font-weight: 800;
     color: #3f4650;
 }
@@ -434,5 +434,10 @@
     }
     .third-sec-heading h1 {
         font-size: 20px;
+    }
+    .fourth-sec-heading h2 {
+        font-size: 20px;
+        text-align: center;
+        margin: 0px 0px 18px 0px;
     }
 }

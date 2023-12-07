@@ -23,3 +23,17 @@
     opacity: .87;
     padding: 0px 0px 10px 0px;
 }
+
+
+@media(max-width: 1224px){
+    .footer h4 {
+        font-size: 20px;
+    }
+    .footer ul li {
+        padding: 0px 0px 8px 0px;
+    }
+    .footer {
+        background-color: black;
+        padding: 50px 0px;
+    }
+}

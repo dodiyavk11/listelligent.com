@@ -9,11 +9,11 @@ const Footer = () => {
     <div className='footer'>
       <Container>
         <Row>
-          <Col>
+          <Col md={3}>
             <h4>Listelligent</h4>
             <p>2173 Salk Ave #250 Carlsbad CA 92008</p>
           </Col>
-          <Col>
+          <Col md={3}>
             <h4>Company</h4>
             <ul>
               <li>About Us</li>
@@ -22,8 +22,8 @@ const Footer = () => {
               <li>Privacy Policy</li>
             </ul>
           </Col>
-          <Col></Col>
-          <Col></Col>
+          <Col md={3}></Col>
+          <Col md={3}></Col>
         </Row>
       </Container>
     </div>

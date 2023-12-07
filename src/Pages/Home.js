@@ -20,7 +20,7 @@ const Home = () => {
                 <Container>
                     <Row className='mt-3 first-inner-section'>
                         <Col md={6} className='first-left-col'>
-                            <h4>Sell Your Home for 1% Connect With Agents in Your Zip Code</h4>
+                            <h4>Sell Your Home for 1% <br/> Connect With Agents in Your Zip Code</h4>
                             <h5>Enter your address to match with a local professional</h5>
                             <div className='zip-search-input'>
                                 <InputGroup className="mt-3 zip-search-input-content">

@@ -22,7 +22,7 @@ function MyVerticallyCenteredModal(props) {
     return (
         <Modal {...props} size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
             <Modal.Body>
-                <video src='https://video-cdn.ziggeo.com/v1/applications/e0601e02e994ce8d4763a3cff2190b09/videos/22ac617f5c89149b348bf33bb758b4be/video.mp4?force_refresh=false' width="765px" controls autoPlay></video>
+                <video src='https://video-cdn.ziggeo.com/v1/applications/e0601e02e994ce8d4763a3cff2190b09/videos/22ac617f5c89149b348bf33bb758b4be/video.mp4?force_refresh=false' controls autoPlay style={{ width: '100%' }}></video>
             </Modal.Body>
         </Modal>
     );

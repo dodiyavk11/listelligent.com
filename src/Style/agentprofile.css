@@ -231,4 +231,81 @@
     .profile-sub-img-content h4 {
         font-size: 26px;
     }
+    .agent-about-info-heading h3 {
+        font-size: 26px;
+    }
+    .agent-about-info-heading p {
+        font-size: 14px;
+    }
+    .slider {
+        padding: 0px 0px 40px 0px;
+    }
+    .container-fluid h1 {
+        font-size: 26px;
+    }
+}
+
+
+@media(max-width: 767px){
+    .profile-conteiner {
+        padding: 40px 0px 0px 0px;
+    }
+    .profile-conteiner img {
+        width: 50%;
+        border-radius: 50%;
+    }
+    .angent-img-icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .social-icons svg {
+        width: 35px;
+        height: 30px;
+    }
+    .profile-content h2 {
+        font-size: 28px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .profile-content p {
+        margin: 4px 0px;
+        text-align: center;
+    }
+    .video-content img {
+        width: 100%;
+        border-radius: 10px;
+        margin: 10px 0px;
+    }
+    .profile-sub-img-content {
+        padding: 20px 0px;
+        margin: 0px;
+    }
+    .profile-sub-img-content h4 {
+        font-size: 23px;
+    }
+    .profile-sub-img img {
+        width: 100%;
+        border-radius: 5px;
+    }
+    .agent-about-info-heading h3 {
+        font-size: 22px;
+    }
+    .container-fluid h1 {
+        font-size: 22px;
+        margin: 10px 0px !important;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+        margin: 0px -18px !important;
+    }
+    .sq-icon span svg {
+        font-size: 18px;
+    }
+    .sq-icon span {
+        font-size: 14px;
+    }
+    .carousel-card-content p {
+        font-size: 16px;
+    }
 }

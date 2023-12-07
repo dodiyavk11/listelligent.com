@@ -152,3 +152,99 @@
     font-size: 18px;
     font-weight: 700;
 }
+
+
+@media(max-width: 1024px){
+    .agent-header {
+        padding: 10px 0px 50px 0px;
+    }
+    .agent-header h1 {
+        font-size: 30px;
+    }
+    .agent-header p {
+        font-size: 18px;
+    }
+    .button {
+        margin: 45px 0px 0px 0px;
+    }
+    .agentsign-first-section {
+        padding: 35px 0px;
+    }
+    .agentsign-first-section h1 {
+        font-size: 20px;
+    }
+    .reason-item svg {
+        font-size: 25px;
+    }
+    .reason-item h4 {
+        margin-bottom: 8px;
+    }
+    .agentsign-second-section {
+        padding: 50px 0px;
+    }
+    .agentsign-second-section h1 {
+        font-size: 19px;
+    }
+    .steplabels :nth-child(1) svg {
+        font-size: 22px;
+    }
+    .steplabels :nth-child(2) span {
+        font-size: 16px;
+    }
+    .signup-btn {
+        font-size: 12px !important;
+    }
+    .agentsign-third-section {
+        padding: 25px 0px;
+    }
+    .agentsign-third-section h1 {
+        font-size: 30px;
+    }
+    .accordian-container {
+        margin: 20px 0px 0px 0px;
+    }
+    .agentsign-fourth-section {
+        padding: 35px 0px;
+    }
+    .agentsign-fourth-section h1 {
+        font-size: 22px;
+    }
+    .agentsign-fourth-section a {
+        font-size: 16px;
+    }
+}
+
+
+@media(max-width: 767px){
+    .agent-header h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .agent-header p {
+        font-size: 18px;
+        text-align: center;
+    }
+    .button {
+        margin: 10px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .button {
+        margin: 10px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
+    }
+    .reason-item svg {
+        font-size: 35px;
+    }
+    .agentsign-second-section {
+        padding: 30px 0px;
+    }
+    .agentsign-second-section h1 {
+        font-size: 16px;
+        margin: 10px 0px;
+    }
+    .agentsign-third-section h1 {
+        font-size: 19px;
+    }
+}

@@ -200,3 +200,112 @@
     font-weight: 700;
     color: #fff;
 }
+
+
+@media(max-width: 1224px){
+    .myprofile-conteiner {
+        padding: 30px 0px;
+    }
+    .myprofile-content h2 {
+        font-size: 24px;
+    }
+    .myprofile-content p {
+        margin: 0px 0px;
+    }
+    .myprofile-social-icons {
+        margin-top: 8px !important;
+    }
+    .myprofile-social-icons svg {
+        width: 25px;
+        height: 25px;
+    }
+    .myprofile-video-content a {
+        position: absolute;
+        top: 35%;
+        left: 40%;
+        color: #FF6C2C !important;
+    }
+    .myprofile-video-content a svg {
+        font-size: 50px;
+    }
+    .myprofile-sub-img-content h4 {
+        font-size: 26px;
+    }
+    .myprofile-agent-about-info h3 {
+        font-size: 26px;
+    }
+    .myprofile-agent-about-info p {
+        font-size: 14px;
+    }
+    .myprofile-slider {
+        padding: 0px 0px 40px 0px;
+    }
+    .container-fluid h1 {
+        font-size: 26px;
+    }
+}
+
+
+@media(max-width: 767px){
+    .myprofile-conteiner {
+        padding: 40px 0px 0px 0px;
+    }
+    .myprofile-conteiner img {
+        width: 50%;
+        border-radius: 50%;
+    }
+    .myprofile-angent-img-icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .myprofile-social-icons svg {
+        width: 35px;
+        height: 30px;
+    }
+    .myprofile-content h2 {
+        font-size: 28px;
+        text-align: center;
+        margin-top: 10px;
+    }
+    .myprofile-content p {
+        margin: 4px 0px;
+        text-align: center;
+    }
+    .myprofile-video-content img {
+        width: 100%;
+        border-radius: 10px;
+        margin: 10px 0px;
+    }
+    .myprofile-sub-img-content {
+        padding: 20px 0px;
+        margin: 0px;
+    }
+    .myprofile-sub-img-content h4 {
+        font-size: 23px;
+    }
+    .myprofile-sub-img img {
+        width: 100%;
+        border-radius: 5px;
+    }
+    .myprofile-agent-about-info-heading h3 {
+        font-size: 22px;
+    }
+    .container-fluid h1 {
+        font-size: 22px;
+        margin: 10px 0px !important;
+    }
+
+    .mp-sq-icon span svg {
+        font-size: 18px;
+    }
+    .mp-sq-icon span {
+        font-size: 14px;
+    }
+    .myprofile-carousel-card-content p {
+        font-size: 16px;
+    }
+    .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+        margin: 0px -18px !important;
+    }
+}

@@ -207,7 +207,9 @@ const Agentsignup = () => {
                             <h1>Ready to take on more listings?</h1>
                         </Col>
                         <Col md={5}>
-                            <Link>Join Listelligent<FaArrowRight /></Link>
+                            <div className='button'>
+                                <Link>Join Listelligent<FaArrowRight /></Link>
+                            </div>
                         </Col>
                     </Row>
                 </Container>

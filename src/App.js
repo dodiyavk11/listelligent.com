@@ -10,6 +10,7 @@ import Agentprofile from "./Pages/Agentprofile";
 import Agentsignup from "./Pages/Agents/Agentsignup";
 import Howagentswork from "./Pages/Agents/Howagentswork";
 import Myprofile from "./Pages/Agents/Myprofile";
+import Profile from "./Pages/Admin/Profile";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="agentsignup" element={<Agentsignup />} />
           <Route path="howagentswork" element={<Howagentswork />} />
           <Route path="myprofile" element={<Myprofile />} />
+          <Route path="admin/dashboard" element={<Profile />} />
           <Route path="*" element={<Nopage />} />
         </Routes>
       </BrowserRouter>

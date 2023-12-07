@@ -23,7 +23,7 @@ function MyVerticallyCenteredModal(props) {
     return (
         <Modal {...props} size="lg" aria-labelledby="contained-modal-title-vcenter" centered>
             <Modal.Body>
-                <video src='https://video-cdn.ziggeo.com/v1/applications/e0601e02e994ce8d4763a3cff2190b09/videos/691b73e73d4c589acfd1870b1f2afad0/video.mp4' width="765px" autoPlay controls></video>
+                <video src='https://video-cdn.ziggeo.com/v1/applications/e0601e02e994ce8d4763a3cff2190b09/videos/691b73e73d4c589acfd1870b1f2afad0/video.mp4' autoPlay controls style={{ width: '100%' }}></video>
             </Modal.Body>
         </Modal>
     );
@@ -41,7 +41,7 @@ const Agentprofile = () => {
                         <Col md={8}>
                             <Row className='d-flex align-items-center'>
                                 <Col md={3}>
-                                    <div>
+                                    <div className='angent-img-icons'>
                                         <img src='https://storage.googleapis.com/upnest1/upload/realtor/1505730803_2621ec1e-d519-49f6-84bc-7197ada234d7.jpeg'></img>
                                         <div className='d-flex justify-content-center mt-3 social-icons'>
                                             <FaFacebook className='facebook' />
@@ -75,13 +75,13 @@ const Agentprofile = () => {
                         <Col md={12}>
                             <h4>Promotional Materials</h4>
                             <Row className='profile-sub-img'>
-                                <Col md={4}>
+                                <Col>
                                     <img src='https://storage.googleapis.com/upnest1/upload/realtor/672158992_abd6408e-e3d6-4ce7-a7c4-4cf1df8b0497.jpeg'></img>
                                 </Col>
-                                <Col md={4}>
+                                <Col>
                                     <img src='https://storage.googleapis.com/upnest1/upload/realtor/672158992_abd6408e-e3d6-4ce7-a7c4-4cf1df8b0497.jpeg'></img>
                                 </Col>
-                                <Col md={4}>
+                                <Col>
                                     <img src='https://storage.googleapis.com/upnest1/upload/realtor/672158992_abd6408e-e3d6-4ce7-a7c4-4cf1df8b0497.jpeg'></img>
                                 </Col>
                             </Row>
@@ -114,8 +114,8 @@ const Agentprofile = () => {
                     <Row>
                         <Col md={12}>
                             <div class='container-fluid' >
-                            <h1>Featured Transactions</h1>
-                                <OwlCarousel items={3} className="owl-theme" loop nav margin={8} >
+                                <h1>Featured Transactions</h1>
+                                <OwlCarousel items={3} className="owl-theme" loop nav margin={8} responsive={{ 0: { items: 1, }, 768: { items: 2, }, 1224: { items: 3, }, }}>
                                     <div className='carousel-card'>
                                         <img className="img" src={'https://storage.googleapis.com/upnest1/upload/transaction/279583_880486ef-2021-46fb-a595-559c83272bb1.jpg'} />
                                         <div className='carousel-card-content'>
